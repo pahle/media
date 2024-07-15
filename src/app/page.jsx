@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
+import { About } from '@/components/About'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
@@ -14,8 +15,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
+        {/* <PrimaryFeatures /> */}
+        {/* <SecondaryFeatures /> */}
+        <About />
         <CallToAction />
         <Testimonials />
         <Pricing />

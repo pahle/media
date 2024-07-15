@@ -2,12 +2,6 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
 
 import logoACC from '@/images/partners/acc.webp'
 import logoAdira from '@/images/partners/adira.webp'
@@ -36,7 +30,7 @@ export function Hero() {
           <span className="relative">mudah</span>
         </span>
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-700">
         Media Biro Jasa melayani pengurusan surat-surat kendaraan bermotor di
         seluruh Indonesia.
       </p>
@@ -56,8 +50,8 @@ export function Hero() {
         </Button> */}
       </div>
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Dipercaya oleh :
+        <p className="font-display text-base text-slate-700">
+          Dipercaya oleh
         </p>
         <ul
           role="list"
@@ -92,7 +86,7 @@ export function Hero() {
                       alt={company.name}
                       width={1280}
                       height={720}
-                      className="w-[8rem] "
+                      className="w-[8rem]"
                       unoptimized
                     />
                   </li>
