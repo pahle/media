@@ -137,18 +137,11 @@ function Feature({ feature, isActive = true, className, ...props }) {
           <feature.icon />
         </svg>
       </div>
-      <h3
-        className={clsx(
-          'mt-6 text-sm font-medium',
-          isActive ? 'text-red-600' : 'text-slate-600',
-        )}
-      >
+      <h3 className="mt-6 font-display text-xl text-slate-900">
         {feature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-900">
-        {feature.summary}
-      </p>
-      <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
+      {/* <p className="mt-2 font-display text-xl text-slate-900">{feature.name}</p> */}
+      <p className="mt-2 text-sm text-slate-600">{feature.description}</p>
     </div>
   )
 }
@@ -231,12 +224,12 @@ function FeaturesDesktop() {
   )
 }
 
-export function SecondaryFeatures() {
+export function Layanan() {
   return (
     <section
-      id="secondary-features"
-      aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32 bg-slate-50"
+      id="layanan"
+      aria-label="Layanan"
+      className="bg-slate-50 pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
@@ -244,7 +237,9 @@ export function SecondaryFeatures() {
             Layanan
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus aliquid sunt ab molestias quasi, quae animi incidunt ipsam pariatur fugit.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+            aliquid sunt ab molestias quasi, quae animi incidunt ipsam pariatur
+            fugit.
           </p>
         </div>
         <FeaturesMobile />

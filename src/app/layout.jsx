@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Media Biro Jasa',
+    default: 'Urusan Pajak Kendaraan Seluruh Indonesia',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Media Biro Jasa melayani pengurusan surat-surat kendaraan seperti STNK, BPKB, Pajak Kendaraan, Mutasi, KIR, BBN, dan lainnya ke Seluruh Wilayah Indonesia',
 }
 
 const inter = Inter({
