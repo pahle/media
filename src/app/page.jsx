@@ -3,11 +3,12 @@ import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { Pricing } from '@/components/Pricing'
 import { About } from '@/components/About'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Testimonials } from '@/components/Testimonials'
+import { Contact } from '@/components/Contact'
+import { HasilKerja } from '@/components/HasilKerja'
+import { Berita } from '@/components/Berita'
 
 export default function Home() {
   return (
@@ -16,12 +17,13 @@ export default function Home() {
       <main>
         <Hero />
         {/* <PrimaryFeatures /> */}
-        {/* <SecondaryFeatures /> */}
         <About />
+        <SecondaryFeatures />
         <CallToAction />
-        <Testimonials />
-        <Pricing />
+        <HasilKerja />
         <Faqs />
+        <Berita />
+        <Contact />
       </main>
       <Footer />
     </>

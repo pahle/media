@@ -35,7 +35,7 @@ export function Hero() {
         seluruh Indonesia.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="#">Hubungi Kami</Button>
+        <Button href="#" color="red">Hubungi Kami</Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
